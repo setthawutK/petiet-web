@@ -1,0 +1,154 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+/* Header area */
+.header {
+  background-color: white; /* สีพื้นหลัง */
+  color: #435597;
+  padding: 2rem; /* เพิ่ม Padding ด้านบนและล่าง */
+  margin-left: 0rem;
+}
+
+.header h1 {
+  margin: 0; /* เอาขอบของ h1 ออก */
+  font-size: 2.5rem;
+}
+
+/* Logo above Navbar */
+.header-logo {
+  text-align: center;
+  padding: 1rem 0; /* เพิ่มระยะ Padding ด้านบน-ล่าง */
+  background-color: #273238; /* สีพื้นหลัง */
+}
+
+.header-logo img {
+  height: 80px; /* เพิ่มขนาดโลโก้ */
+  max-width: 100%; /* ป้องกันไม่ให้โลโก้ล้นหน้าจอ */
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #9aaff0;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Filters Section (Search + Order By) */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #F8F9FA;
+  margin-bottom: 2rem; /* เว้นระยะห่างด้านล่าง */
+  border-bottom: 1px solid #ddd;
+}
+
+.filters input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.filters select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Members grid */
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive layout */
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.member-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.member-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.member-card h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.member-card p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.member-card a {
+  color: #3498DB;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.member-card a:hover {
+  text-decoration: underline;
+}
+
+/* General layout for Members grid */
+.members-grid {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
+}
+
+/* Responsive Layout Adjustments */
+@media (max-width: 1024px) {
+  .members-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablet */
+  }
+}
+
+@media (max-width: 768px) {
+  .members-grid {
+    grid-template-columns: 1fr; /* 1 column for mobile */
+  }
+}
