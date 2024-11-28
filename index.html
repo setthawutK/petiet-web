@@ -1,349 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2etc Ecommerce Tutorial</title>
+        <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> -->
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
         
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-
-    <header id="header">
-        <nav>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/logofinal.png" alt="">
-                </a>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#service">Services</a>
-                    </li>
-                    <li>
-                        <a href="member.html">About</a>
-                    </li>
-                    <li>
-                        <a href="#contract">Contract</a>
-                    </li>
-                    <li>
-                        <a href="#" class="">Login</a>
-                    </li>
-                </ul>
-            </div>           
-        </nav>
-        <!-- End of desktop navigation menu -->
-
-        <nav class="moblie-nav">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/logofinal.png" alt="">
-                </a>
-            </div>
-            <div class="menu-icon">
-                <img src="images/icon-menu.svg" alt="">
-            </div>
-        </nav>
-
-        <div class="moblie-menu-container">
-            <div class="close-icon">
-                <img src="images/icon-1x.svg" alt="">
-            </div>
-
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/logofinal.png" alt="">
-                </a>
-            </div>
-
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                
-                <li>
-                    <a href="#service">Services</a>
-                </li>
-                <li>
-                    <a href="member.html">About</a>
-                </li>
-                <li>
-                    <a href="#contract">Contract</a>
-                </li>
-                <li>
-                    <a href="#" class="">Login</a>
-                </li>
-            </ul>
-
-        </div>
-
-        <!-- End of moblie navigation menu -->
         
-        <div class=" hero-section">          
-            <div class="wrapper"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-                <div class="left1">
-                    <div class="contents">
-                        
-                        <h1>Welcome to Petiet !</h1>
-                        <h3>Your Trusted Pet Shop</h3>
-                        <p>Petiet is your one-stop destination for all things pets!</p> 
-                            <p>We offer a wide range of premium pet products, from food to accessories,</p> 
-                        <p>ensuring the best care for your furry friends.</p>
-                     
-                        <a href="#" class="btn light-noborder">SHOP NOW</a>   
-                    </div>           
-                </div>
-
-                <div class="right1">
-                    <img src="images/dog/shirt-dog5.png" alt="">
+    <body>
+        
+        
+            <section id="header">
+                <div>
+                    <a href="#"><img src="images/myLogo.png" alt=""></a>
                 </div>  
-                <!-- <div class="left">
-                    <h1>Learn the art of <br>
-                        Game Dev</h1>
-                    <p>This is a comprehensive course on Game Development. 
-                        You will learn everything from generating an idea to 
-                        publishing your games to different platforms.
-                    </p>
-                    <a href="" class="btn light enrol-icon">Shop Now</a>
+                <div>
+                    <ul id="navbar">
+                        <li><i id="close" class="fal fa-times moblie"></i></li>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="#product1">Shop</a></li>
+                        <li><a href="#feature">Features</a></li>
+                        <li><a href="member.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li>
+                            <a href="#">
+                                <i class="fal fa-shopping-bag end-icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fal fa-user end-icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <ul id="navbar-end">
+                        <li>
+                            <a href="#">
+                                <i class="fal fa-shopping-bag end-icon-desktop"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fal fa-user end-icon-desktop"></i>
+                            </a>
+                        </li>
+                    </ul>               
                 </div>
 
-                <div class="right">
+                <div class="moblie">
+                    <i id="bar" class="fal fa-bars"></i>
+                </div>
+            </section>
+        
+            <!-- End of Header -->
+
+            
+
+
+
+
+
+
+
+
+            <section id="hero" class="fade-up">    
+                <div class="container">
+                    <div class="hero-con">
+    
+                        <div class="hero-info">
+                            <div class="content">
+                                
+                                <div class="test fade-up">
+                                    <div class="paw-top"><i class="fad fa-paw top" style="--fa-primary-color: #ffffff; --fa-secondary-color: #ffffff; --fa-secondary-opacity: 1;"></i></div>
+                                    <h1>WELCOME TO PETIET</h1>
+                                    <h3>Your Trusted Pet Shop</h3>
+                                    <p>a wide range of premium pet products, from food to accessories.</p>     
+                                    <a href="#product1" class="hero-btn">SHOP NOW</a>
+                                    <div class="paw"><i class="fad fa-paw" style="--fa-primary-color: #ffffff; --fa-secondary-color: #ffffff; --fa-secondary-opacity: 1;"></i></div>
+                                </div>
+                                 
+                               
+                            </div>                                                 
+                        </div>   
+                        
+                        <div class="hero-img fade-up">
+                            <img id="hero-image" src="images/dog/shirt-dog.png" alt="">
+                        </div> 
+        
+                    </div>   
+                </div>                                
+            </section>
+            <!-- End of Hero-Section -->
+
+
+            <section id="feature" class="section-p2">
+                <div><h2 class="fade-up">Features</h2>  </div>
+                <div class="con">
+                    <div class="fe-box fade-up feature-1">
+                        <i class="fal fa-file-certificate"></i>
+                        <h6>Certified Excellence</h6>
+                        <p>All of our products meet the highest industry standards and are fully accredited.</p>
+                    </div>
+                    <div class="fe-box fade-up feature-2">
+                        <i class="fal fa-truck"></i>
+                        <h6>Fast delivery</h6>
+                        <p>Delivery to over 999 countries</p>
+                    </div>
+                    <div class="fe-box fade-up feature-3">
+                        <i class="fal fa-history"></i>
+                        <h6>Fast Claim Processing</h6>
+                        <p>Easy Claims Process within 24 Hours</p>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Feature-Section -->
+
+
+             <section id="product1" class="" >
+                <div class="topic"><h3>Products</h3></div>
+                <div class="pro-container">
                     
-                    <img src="images/Doggy.png" alt="">
-                </div>
-                
-                <div class="achievement-cards">
-
-                    <div class="achievement-card students-enrolled">
-                        <div class="content">
-                            <div>
-                                <h3>32K</h3>
-                            </div>                           
-                            <p>Students Enrolled</p>
+                    <div class="product fade-up">
+                        <div class="pro">
+                            <img src="images/products/product-1.png" alt="">                                           
+                       </div>
+                       <div class="des">
+                           <h3>PT-Wash</h3>
+                           <span>1,200 ฿</span>
+                           <h5>Safe & Gentle Cleaning</h5>       
+                           <div class="star">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                           </div>       
                         </div>
-                        <div class="bg"></div>
+                       <a href="#"><i class="fal fa-shopping-bag"></i></a>
                     </div>
 
-                    <div class="achievement-card overall-rating">
-                        <div class="content">
-                            <div>
-                                <h3>4.7</h3>
-                                <img src="images/emojione_star.png" alt="">
-                            </div> 
-                            <p>Overall Rating</p>
+                    <div class="product fade-up">
+                        <div class="con">
+                            <div class="pro">
+                                <img src="images/products/product-2.png" alt="">                                           
+                           </div>
+                           <div class="des">
+                               <h3>Grande Light</h3>
+                               <span>850 ฿</span>
+                               <h5>Premium Pet Food </h5>       
+                               <div class="star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                               </div>       
+                            </div>
                         </div>
-                        <div class="bg"></div>
-                    </div>    
-
-                </div> -->
-
-            </div>
-        </div>
-        <!-- End of the Hero section -->
-         
-    </header >
-
-    <!-- End of the header section -->
-
-    <section id="service" class="feature-section">
-        <div class="wrapper">
-            <div class="content">
-                <h2>Our Services</h2>
-    
-                <div class="service-cards">
-                    <!-- Row 1: Delivery -->
-                    <div class="service">
-                        <h2>Delivery</h2>
-                        <img src="images/delivery.svg" alt="">
-                        <p>Fast and reliable delivery for all your pet products, right to your doorstep.</p>
+                        
+                       <a href="#"><i class="fal fa-shopping-bag"></i></a>
                     </div>
-    
-                    <!-- Row 2: Claim Product -->
-                    <div class="service">
-                        <h2>Claim Product 24hr.</h2>
-                        <img src="images/service2.svg" alt="">
-                        <p>Hassle-free returns and exchanges for pet products anytime you need.</p>
+
+                    <div class="product fade-up">
+                        <div class="pro">
+                            <img src="images/products/product-3.png" alt="">                                           
+                       </div>
+                       <div class="des">
+                           <h3>Y-Series</h3>
+                           <span>5,400 ฿</span>
+                           <h5>Premium Pet Collar</h5>       
+                           <div class="star">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                           </div>       
+                        </div>
+                       <a href="#"><i class="fal fa-shopping-bag"></i></a>
                     </div>
-    
-                    <!-- Row 3: Quality Assurance -->
-                    <div class="service">
-                        <h2>Quality Assurance</h2>
-                        <img src="images/service3.svg" alt="">
-                        <p>We ensure the highest quality products for your beloved pets, tested and trusted by experts.</p>
+
+                    <div class="product fade-up">
+                        <div class="pro">
+                            <img src="images/products/product-4.jpg" alt="">                                           
+                       </div>
+                       <div class="des">
+                           <h3>Aplos</h3>
+                           <span>1,000 ฿</span>
+                           <h5>Pet Collar</h5>       
+                           <div class="star">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                           </div>       
+                        </div>
+                       <a href="#"><i class="fal fa-shopping-bag"></i></a>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    
 
+                  
+                    
+                    <!-- End of Product1 Row 1 -->
 
-    <!-- End of feature section -->
-    
-   
-    
-
-  
- <section id="product1" class="wrapper">
-    <h2>New Arrival Products</h2>
-    <p></p>
-    <div class="pro-container">
-        <!-- Product 1 -->
-        <div class="pro">
-            <img src="images/products/product-1.png" alt="">
-            <div class="des">
-                <span>washing products</span>
-                <h5>Clean-S1</h5>
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h4>350฿</h4>
-            </div>
-            <a href="#"><i class="fal fa-shopping-cart"></i></a>
-        </div>
-
-        <!-- Product 2 -->
-        <div class="pro">
-            <img src="images/products/product-2.png" alt="">
-            <div class="des">
-                <span></span>
-                <h5>Premium Pet Food</h5>
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h4>450฿</h4>
-            </div>
-            <a href="#"><i class="fal fa-shopping-cart"></i></a>
-        </div>
-
-        <!-- Product 3 -->
-        <div class="pro">
-            <img src="images/dog/shirt-dog6.png" alt="">
-            <div class="des">
-                <span></span>
-                <h5>Banana Cloth</h5>
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h4>500฿</h4>
-            </div>
-            <a href="#"><i class="fal fa-shopping-cart"></i></a>
-        </div>
-
-        <!-- Product 4 -->
-        <div class="pro">
-            <img src="images/dog/shirt-dog3.png" alt="">
-            <div class="des">
-                <span></span>
-                <h5>Little Shirt</h5>
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h4>500฿</h4>
-            </div>
-            <a href="#"><i class="fal fa-shopping-cart"></i></a>
-        </div>
-
-    </div>
-</section>
-
-
-   
-    
-
-
-    <footer id="contract">
-        <div class="wrapper">
-
-            <div class="links-container">
-
-                <div class="links">
-                    <h3>Quick Links</h3>
-
-                    <ul>
-                        <li>
-                            <a href="#">About Us</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Contact Us</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Privacy Policy</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Term & Conditions</a>
-                        </li>
-                    </ul>
-                </div>
-
-
-                <div class="links">
-                    <h3>Contact Us</h3>
-
-                    <ul>
-                        <li>pettiet@email.com</li>
-                    </ul>
-                    <div class="social">
-                        <a href="https://www.pim.ac.th/">
-                            <img src="images/icon-fb.svg" alt="">
-                        </a>
-                        <a href="https://www.pim.ac.th/">
-                            <img src="images/icon-ig.svg" alt="">
-                        </a>
-                        <a href="https://www.pim.ac.th/">
-                            <img src="images/icon-twitter.svg" alt="">
-                        </a>
-                        <a href="https://www.pim.ac.th/">
-                            <img src="images/icon-whatsapp.svg" alt="">
-                        </a>
+                    <div class="product fade-up">
+                        <div class="pro">
+                            <img src="images/products/product-5.jpg" alt="">                                           
+                       </div>
+                       <div class="des">
+                           <h3>Softe</h3>
+                           <span>3,420฿</span>
+                           <h5>Softly Pet Collar</h5>       
+                           <div class="star">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                           </div>       
+                        </div>
+                       <a href="#"><i class="fal fa-shopping-bag"></i></a>
                     </div>
+
+                    <div class="product fade-up">
+                        <div class="con">
+                            <div class="pro">
+                                <img src="images/products/product-2.png" alt="">                                           
+                           </div>
+                           <div class="des">
+                               <h3>PT-Wash</h3>
+                               <span>1,200 ฿</span>
+                               <h5>Safe & Gentle Cleaning</h5>       
+                               <div class="star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                               </div>       
+                            </div>
+                        </div>
+                        
+                       <a href="#"><i class="fal fa-shopping-bag"></i></a>
+                    </div>
+
+                    <div class="product fade-up">
+                        <div class="pro">
+                            <img src="images/products/product-1.png" alt="">                                           
+                       </div>
+                       <div class="des">
+                           <h3>PT-Wash</h3>
+                           <span>1,200 ฿</span>
+                           <h5>Safe & Gentle Cleaning</h5>       
+                           <div class="star">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                           </div>       
+                        </div>
+                       <a href="#"><i class="fal fa-shopping-bag"></i></a>
+                    </div>
+
+                    <div class="product fade-up">
+                        <div class="pro">
+                            <img src="images/dog/shirt-dog3.png" alt="">                                           
+                       </div>
+                       <div class="des">
+                           <h3>PT-Wash</h3>
+                           <span>1,200 ฿</span>
+                           <h5>Safe & Gentle Cleaning</h5>       
+                           <div class="star">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                           </div>       
+                        </div>
+                       <a href="#"><i class="fal fa-shopping-bag"></i></a>
+                    </div>
+
+              
+
                 </div>
+             </section>
 
-                
+             <!-- End of Product1-Section -->
+          
+              <footer id="contact">
+                <div class="wrapper">
+                  <div class="footer-container">
+                    <div class="logo fade-up">
+                      <img src="images/myLogo.png" alt="" />
+                    </div>
+          
+          
+                    <div class="footer-nav fade-up">
+                      <h3>About Us</h3>
+                      <ul>
+                        <li><a href="member.html">Our Members Team</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+          
+                    <div class="footer-nav fade-up">
+                      <h3>Get Social</h3>
+          
+                      <div class="footer-social">
+                        <a href="https://www.pim.ac.th/">
+                          <img src="images/icon-fb.svg" alt="" />
+                        </a>
+          
+                        <a href="https://www.pim.ac.th/">
+                          <img src="images/icon-ig.svg" alt="" />
+                        </a>
+          
+                        <a href="https://www.pim.ac.th/">
+                          <img src="images/icon-twitter.svg" alt="" />
+                        </a>
+                      </div>
+          
+                      <p>petiet@pmail.net</p>
+                    </div>
+                  </div>
+                </div>
+          
+                <p class="copyright">
+                    Copyright &copy; 2024 PETIET. All rights reserved.
+                </p>
+              </footer>
 
-                
-            </div>
-
-            <p class="copyright">Copyright © 2024 Petiet. All rights reserved. </p>
-        </div>
-    </footer>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="main.js"></script>
-</body>
+     
+        <script src="script.js" defer></script>
+    </body>
 </html>
